@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29728.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HeBianGu.General.HookService", "..\Source\General\HeBianGu.General.HookService\HeBianGu.General.HookService.csproj", "{B594A9C5-5086-4543-B3CE-D6E2E8BD014B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Application", "1 - Application", "{59CFA4DE-C9C9-455E-A043-9EA6431C82AD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - General", "2 - General", "{65015FA3-AEA9-4CAA-A708-07A952CCB4D0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HeBianGu.App.Demo.Hook", "..\Source\Application\HeBianGu.App.Demo.Hook\HeBianGu.App.Demo.Hook.csproj", "{D3174C6F-2331-48E3-8CFC-A5C4035017BE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B594A9C5-5086-4543-B3CE-D6E2E8BD014B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B594A9C5-5086-4543-B3CE-D6E2E8BD014B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B594A9C5-5086-4543-B3CE-D6E2E8BD014B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B594A9C5-5086-4543-B3CE-D6E2E8BD014B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D3174C6F-2331-48E3-8CFC-A5C4035017BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3174C6F-2331-48E3-8CFC-A5C4035017BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3174C6F-2331-48E3-8CFC-A5C4035017BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3174C6F-2331-48E3-8CFC-A5C4035017BE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B594A9C5-5086-4543-B3CE-D6E2E8BD014B} = {65015FA3-AEA9-4CAA-A708-07A952CCB4D0}
+		{D3174C6F-2331-48E3-8CFC-A5C4035017BE} = {59CFA4DE-C9C9-455E-A043-9EA6431C82AD}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {33D25FA2-2EB9-4A0E-9490-459D730BF7F6}
+	EndGlobalSection
+EndGlobal
